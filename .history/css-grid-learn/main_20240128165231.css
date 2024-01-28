@@ -52,7 +52,7 @@ h1, h2, h3{
 }
 
 h1{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 h2{
@@ -137,37 +137,3 @@ navbar css here
 hero css here
 ============== 
  */
-
-
- .hero-header{
-    min-height: 100vh;
-    background: var(--primaryColor);
-    color: var(--mainWhite);
-    display: grid;
-    justify-content: center;
-    align-items: center;
- }
-
- .hero-banner{
-    /* text-align: center; */
-    /* padding: 0 1rem; */
-
- }
-
- .hero-banner p{
-    width: 80%;
-    max-width: 560px;
-    font-size: 1rem;
- }
-
-
- @media screen and (max-width:600px) {
-    .hero-banner{
-        padding: 0 3rem;
-    }
- } 
- @media screen and (min-width:768px) {
-    .hero-header{
-        background:linear-gradient(rgba(241, 80 , 37,0.75), rgba(0,0,0,0.75)) ,url(../images/i1.webp)center/cover fixed no-repeat ;
-    }
- }

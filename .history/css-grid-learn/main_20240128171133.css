@@ -150,7 +150,7 @@ hero css here
 
  .hero-banner{
     /* text-align: center; */
-    /* padding: 0 1rem; */
+    padding: 0 1rem;
 
  }
 
@@ -158,16 +158,4 @@ hero css here
     width: 80%;
     max-width: 560px;
     font-size: 1rem;
- }
-
-
- @media screen and (max-width:600px) {
-    .hero-banner{
-        padding: 0 3rem;
-    }
- } 
- @media screen and (min-width:768px) {
-    .hero-header{
-        background:linear-gradient(rgba(241, 80 , 37,0.75), rgba(0,0,0,0.75)) ,url(../images/i1.webp)center/cover fixed no-repeat ;
-    }
  }
