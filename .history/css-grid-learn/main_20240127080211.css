@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 20px;
+    font-weight: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* root variables  */
+
+:root{
+    --primaryColor:#f15025;
+    --mainBlack:#222;
+    --mainWhite:#fff;
+    --offwhite:#f7f7f7;
+    --darkGrey:#afafaf;
+    --mainTransition:all 0.3s linear;
+    --mainSpacing:2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}

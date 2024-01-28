@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222;
+}
+
+.container{
+    border: 5px solid black;
+}
+
+.cell{
+    background: #dedede;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bold;
+    padding: 2rem;
+    font-size: large;
+    border:1rem solid red;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+
+.class-1{
+    color: white;
+    background: blue;
+}
+.class-2{
+    color: white;
+    background:gray;
+}
+.class-3{
+    color: white;
+    background:plum;
+}

@@ -1,0 +1,43 @@
+
+
+:root{
+    --primaryColor:#f15025;
+    --mainBlack:#222;
+    --mainWhite:#fff;
+    --offwhite:#f7f7f7;
+    --darkGrey:#afafaf;
+    --mainTransition:all 0.3s linear;
+    --mainSpacing:2rem;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* root variables  */
+
+
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--mainBlack);
+    background: var(--offwhite);
+    line-height: 1.5;
+    font-size: 1rem;
+}

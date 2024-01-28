@@ -1,0 +1,129 @@
+
+
+:root{
+    --primaryColor:#f15025;
+    --mainBlack:#222;
+    --mainWhite:#fff;
+    --offwhite:#f7f7f7;
+    --darkGrey:#afafaf;
+    --mainTransition:all 0.3s linear;
+    --mainSpacing:3px;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* root variables  */
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--mainBlack);
+    background: var(--mainWhite);
+    line-height: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+
+h1, h2, h3{
+    text-transform: capitalize;
+    letter-spacing:var(--mainSpacing);
+    margin-bottom: 1.25rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    margin-bottom:0 ;
+}
+h1{
+    font-size: 0.75rem;
+}
+p{
+    font-weight: 300px;
+    font-size: 0.6rem;
+    line-height: 2;
+}
+
+.btn{
+    display: inline-block;
+    padding: 0.357rem 0.75rem;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    border: 3px solid var(--primaryColor);
+    cursor: pointer;
+    border-radius: 0.3rem;
+    margin: 3rem;
+    transition: var(--mainTransition);
+}
+
+
+.btn:hover{
+    background: var(--primaryColor);
+    color: var(--mainWhite);
+}
+
+/*
+==============
+navbar css here
+============== 
+ */
+
+
+
+.main-navbar{
+   background: var(--darkGrey);
+   padding: 0 2rem;
+}
+
+ /* .nav-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ } */
+
+ .nav-links a {
+    text-transform: capitalize;
+    display: block;
+    padding: 1rem 0;
+    color: var(--primaryColor);
+    letter-spacing: var(--mainSpacing);
+    transition: var(--mainTransition);
+}
+
+.nav-links a:hover{
+     color: var(--mainBlack);
+}
+
+
+@media screen and (min-width:992px) {
+    .nav-links{
+        max-width: 1170px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
